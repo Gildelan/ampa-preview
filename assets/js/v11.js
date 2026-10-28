@@ -18,9 +18,11 @@ document.addEventListener('DOMContentLoaded',()=>{
    const apply=()=>{let count=0;list.querySelectorAll(':scope>.ampa-card').forEach(card=>{card.hidden=!!select.value&&card.dataset.course!==select.value;if(!card.hidden)count++;});status.textContent=`${count} publicaciones disponibles`;};
    form.addEventListener('submit',e=>{e.preventDefault();apply();});select.addEventListener('change',apply);apply();
   });
-  if(location.hash.startsWith('#/')){
+  const restoreLegacy=()=>{if(location.hash.startsWith('#/')){
+   const requestedHash=location.hash;
    const prefix=document.documentElement.dataset.previewPrefix||'';
-   fetch(prefix+'/legacy-routes.json').then(r=>r.ok?r.json():{}).then(map=>{const target=map[location.hash.slice(1)];if(typeof target==='string'&&target.startsWith(prefix+'/')&&!target.startsWith('//'))location.replace(target);}).catch(()=>{});
-  }
+   fetch(prefix+'/legacy-routes.json').then(r=>r.ok?r.json():{}).then(map=>{const target=map[requestedHash.slice(1)];if(location.hash===requestedHash&&typeof target==='string'&&target.startsWith(prefix+'/')&&!target.startsWith('//'))location.replace(target);}).catch(()=>{});
+  }};
+  window.addEventListener('hashchange',restoreLegacy);restoreLegacy();
  }
 });
