@@ -1,17 +1,9 @@
-# AMPA Champagnat — Vista previa navegable
+# AMPA Champagnat · V11
 
-Exportación estática de revisión visual. **No es WordPress ni la web institucional en producción.**
+Vista de revisión estática del proyecto WordPress privado Gildelan/campa. Exportación controlada de 84 rutas públicas; sin formularios ni datos personales. Los dos borradores quedan excluidos.
 
-Incluye 24 páginas informativas, 13 noticias publicadas y 47 fichas procedentes del inventario editorial V9. No contiene formularios activos, datos privados de socios, backend, contraseñas ni claves.
+URL prevista: https://gildelan.github.io/ampa-preview/
 
-Las fotografías complementarias de archivo son ilustrativas y no corresponden a eventos reales del AMPA. Los recursos gráficos definitivos y los vídeos deben pasar revisión de fuentes, autorizaciones y derechos.
+Fuente editorial: WordPress y los mismos CSS/JS del tema. Actualizar mediante scripts/public-manifest-v11.php y scripts/export-public-v11.py del proyecto privado; revisar la lista autorizada antes de volver a exportar. export-receipt.json contiene hashes de los archivos exportados.
 
-[Consultar canal oficial del AMPA en Instagram](https://www.instagram.com/ampamaristassevilla/).
-
-## Publicación en GitHub Pages
-
-**Antes de habilitar Pages**, revisar el contenido porque cualquier sitio Pages público estará accesible por Internet.
-
-En el repositorio público: Settings → Pages → Deploy from a branch → main → / (root) → Save.
-
-Sitio estático sin WordPress; para probar formularios y funcionalidades PHP deberá utilizarse el staging privado en SenseHL01.
+Revisión visual; no constituye lanzamiento institucional ni admisión de solicitudes.
