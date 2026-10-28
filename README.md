@@ -1,9 +1,7 @@
-# AMPA Champagnat · V11
+# AMPA Champagnat · V12
 
-Vista de revisión estática del proyecto WordPress privado Gildelan/campa. Exportación controlada de 84 rutas públicas; sin formularios ni datos personales. Los dos borradores quedan excluidos.
+Vista de revisión exportada del WordPress privado. 84 rutas, 13 recursos locales, sin formularios ni datos personales. https://gildelan.github.io/ampa-preview/
 
-URL prevista: https://gildelan.github.io/ampa-preview/
+Tres noticias simétricas, accesos móviles2+1, identidad V11 conservada. Una publicación auténtica de Instagram; cero Reels confirmados. Fachada institucional real, sin fotografías ficticias de actividades.
 
-Fuente editorial: WordPress y los mismos CSS/JS del tema. Actualizar mediante scripts/public-manifest-v11.php y scripts/export-public-v11.py del proyecto privado; revisar la lista autorizada antes de volver a exportar. export-receipt.json contiene hashes de los archivos exportados.
-
-Revisión visual; no constituye lanzamiento institucional ni admisión de solicitudes.
+Actualizar desde WordPress con los scripts de manifiesto/exportación revisados. No mantener HTML separado ni publicar la base de datos, borradores o repositorio privado. export-receipt.json registra los hashes. La preview no es producción ni admite solicitudes.
