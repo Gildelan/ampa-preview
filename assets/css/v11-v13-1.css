@@ -34,3 +34,18 @@ body .ampa-page-shell{max-width:none;padding:0 0 65px}body .ampa-page-shell>.wp-
 
 
 .ampa-gallery-tile img.ampa-v13-photo-image{object-fit:cover}.ampa-gallery-tile img.ampa-poster-image,.ampa-cover-image.ampa-poster-image{object-fit:contain;background:#eef4f7}
+
+.ampa-rosa-brand .ampa-rosa-logo{width:112px;height:60px;object-fit:contain;border-radius:0;flex:none}.ampa-rosa-brand{gap:12px}
+.ampa-v11-news-image,.ampa-v11-publication-image,.ampa-card-image,.ampa-record-grid figure{container-type:inline-size}
+.ampa-card-visual{position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:8px;width:100%;height:100%;padding:clamp(18px,7cqw,28px);background:#f5edf7;color:#173a54;text-align:left;overflow:hidden}
+.ampa-card-visual::before{content:"";position:absolute;z-index:-1;width:65%;aspect-ratio:1;border:1px solid #d8b3d6;border-radius:50%;right:-24%;bottom:-30%;box-shadow:0 0 0 20px #f0e0f2,0 0 0 42px #f5eaf5}
+.ampa-card-visual-brand{position:absolute;right:18px;top:14px;width:clamp(70px,28cqw,112px);aspect-ratio:2}.ampa-card-visual-brand .ampa-rosa-logo{display:block;width:100%;height:100%;object-fit:contain;border-radius:0;padding:0;background:transparent}
+.ampa-card-visual-kicker{font-size:clamp(8px,2.7cqw,10px);font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9b164f;max-width:65%}.ampa-card-visual>strong{font-size:clamp(24px,9cqw,40px);line-height:1.03;letter-spacing:-.035em;font-weight:750;margin:0;max-width:100%;overflow-wrap:anywhere}.ampa-card-visual-caption{font-size:clamp(9px,3cqw,12px);line-height:1.4;max-width:85%;color:#3f5263}
+.ampa-card-visual-symbol{position:absolute;right:20px;bottom:20px;color:#b11559;opacity:.55}.ampa-card-visual-symbol svg{width:clamp(26px,10cqw,42px);height:auto}
+.ampa-card-visual--ideas{background:#fbf1e7}.ampa-card-visual--ideas::before{border-color:#e7c5b5;box-shadow:0 0 0 20px #f6e7d7,0 0 0 42px #faeedf}.ampa-card-visual--community{background:#eaf3f6}.ampa-card-visual--community::before{border-color:#b6d1da;box-shadow:0 0 0 20px #deedf1,0 0 0 42px #e6f1f4}
+.ampa-v11-instagram .ampa-v11-publication-image{aspect-ratio:3/2}
+@media(max-width:1100px){.ampa-rosa-brand .ampa-rosa-logo{width:94px;height:51px}.ampa-rosa-brand{gap:9px}}
+@media(max-width:520px){.ampa-rosa-brand .ampa-rosa-logo{width:68px;height:40px}.ampa-rosa-brand strong{font-size:12px}.ampa-rosa-brand small{font-size:7px;max-width:134px}.ampa-footer-grid .ampa-rosa-brand .ampa-rosa-logo{width:94px;height:50px}.ampa-footer-grid .ampa-rosa-brand strong{font-size:15px}}
+
+.ampa-v11-publication-image .ampa-card-visual-brand{left:18px;right:auto}
+.ampa-v11-publication-image{text-decoration:none}
