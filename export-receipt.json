@@ -1,6 +1,6 @@
 {
   "counts": {
-    "assets": 21,
+    "assets": 22,
     "fallbacks": 1,
     "routes": 87
   },
@@ -53,6 +53,7 @@
     "assets/brand/favicon-v13-1-180.png": "18321369733da7e68eef5e241adaa60a3cfd53c2ea85abaccabf005e49dbcb06",
     "assets/brand/favicon-v13-1-32.png": "879d5824c0c7b99b06467640fc489f6f051c41ff38357a3e6ccb5a91d415ffa5",
     "assets/brand/favicon-v13-1.ico": "0d4b7f1049b83f520e8c9942aed65d08ea42feb5e92a6f9c228205f96d9bbb12",
+    "assets/css/home-v14.css": "eb1f6220d50a50e14cdd5675c5fdc1cf1c104f204d1426ff4cc1114533079659",
     "assets/css/news-v14.css": "6faf5cb79d2996b6a02ffe37775127fda0ade4541a257dab822edd8f9fee887b",
     "assets/css/social-videos.css": "ff23924c89032ea971a54c6a5104520f0c982a0fb81bd0dcdfcc66af54267d99",
     "assets/css/v11-v14.css": "e203ab8c8f2d04ebf1a7c22db6061d153114c2d8d2cd8c8cb604490d0b49d889",
@@ -111,7 +112,7 @@
     "hitos/publicacion-de-resolucion-de-becas-para-2021-2022/index.html": "6b62376a941716ee1996cbabe5487ff333fd97e106f8594e918791481c87a077",
     "hitos/publicacion-digital-de-estatutos-aprobados-en-2015/index.html": "3c6d8adcd634156e6c5d41829b86c25131f756d10cac97b0acb389707fda2270",
     "hitos/resolucion-oficial-solicitud-subvencion-voluntariado-denegada/index.html": "76a19e3c05597b2dd26baf4251a3378e1e806d6a98b614436308f67210d00160",
-    "index.html": "60f3fe2df8475f60438af057ff3a6989465ddb346f8749520b4b70a684eb5bc3",
+    "index.html": "c910c56fc25f2f651e460486df44110d8a27710118357e435761cd9bc6075de4",
     "legacy-routes.json": "65a5bbc15a84833a8197d78b8ccb5799b58506b1cec970c9ead2562fa6f10a90",
     "mercadillos/index.html": "bf758232522b95de4395cc088483a7077efa7360c7fc9ae543470c5d30583b0f",
     "preguntas-frecuentes/index.html": "b698626eeef4e79b617a89b09ca9bfe1eedaf56a7adb88545118600d284196d7",
