@@ -52,11 +52,13 @@ document.addEventListener('DOMContentLoaded',()=>{
   [type,year,state].forEach(field=>{const value=params.get(field.name);if(value!==null&&Array.from(field.options).some(o=>o.value===value))field.value=value;});
   const apply=()=>{
    const words=normalize(q.value.slice(0,100).trim()).split(/\s+/).filter(Boolean);
-   const matches=index.filter(row=>(!type.value||row.type===type.value)&&(!year.value||row.year===year.value)&&(!state.value||row.state===state.value)&&words.every(word=>normalize(row.title+' '+row.excerpt).includes(word)));
+   const active=!!(words.length||type.value||year.value||state.value);
+   const matches=active?index.filter(row=>(!type.value||row.type===type.value)&&(!year.value||row.year===year.value)&&(!state.value||row.state===state.value)&&words.every(word=>normalize(row.title+' '+row.excerpt).includes(word))):[];
    const fragment=document.createDocumentFragment();
    matches.forEach(row=>{const item=document.createElement('li'),heading=document.createElement('h3'),link=document.createElement('a'),excerpt=document.createElement('p'),meta=document.createElement('small');link.href=row.url;link.textContent=row.title;heading.append(link);excerpt.textContent=row.excerpt;meta.textContent=types[row.type]+(row.year?' · '+row.year:'')+(row.state?' · '+states[row.state]:'');item.append(heading,excerpt,meta);fragment.append(item);});
-   results.replaceChildren(fragment);status.textContent=matches.length?`${matches.length} resultados`:'No hay resultados para esta búsqueda. Prueba otras palabras o filtros.';
+   results.replaceChildren(fragment);results.hidden=!matches.length;status.textContent=!active?'Escribe una palabra o elige un filtro para buscar.':(matches.length?`${matches.length} resultados`:'No hay resultados para esta búsqueda. Prueba otras palabras o filtros.');
   };
+  component.querySelector('.ampa-public-search-clear')?.addEventListener('click',event=>{event.preventDefault();q.value='';[type,year,state].forEach(field=>field.value='');apply();q.focus();const url=new URL(location.href);['q','type','year','state'].forEach(key=>url.searchParams.delete(key));history.replaceState(null,'',url);});
   form.addEventListener('submit',event=>{event.preventDefault();apply();});[type,year,state].forEach(field=>field.addEventListener('change',apply));q.addEventListener('input',apply);apply();
  });
  document.querySelectorAll('[data-v13-document-filters]').forEach(controls=>{
@@ -65,4 +67,3 @@ document.addEventListener('DOMContentLoaded',()=>{
   const apply=()=>{let count=0;cards.forEach(card=>{card.hidden=!!((category.value&&card.dataset.v13Category!==category.value)||(course.value&&card.dataset.v13Course!==course.value));if(!card.hidden)count++;});groups.forEach(group=>{group.hidden=!Array.from(group.querySelectorAll('[data-v13-document-card]')).some(card=>!card.hidden);});status.textContent=count?`${count} documentos disponibles`:'No hay documentos para estos filtros. Selecciona otra categoría o curso.';};category.addEventListener('change',apply);course.addEventListener('change',apply);apply();
  });
 });
-
