@@ -54,7 +54,7 @@
     "assets/brand/favicon-v13-1-32.png": "879d5824c0c7b99b06467640fc489f6f051c41ff38357a3e6ccb5a91d415ffa5",
     "assets/brand/favicon-v13-1.ico": "0d4b7f1049b83f520e8c9942aed65d08ea42feb5e92a6f9c228205f96d9bbb12",
     "assets/css/about-v14.css": "3e2eec6406b6b168e0db5cf5aeb1b4f2d126c5907dcb9e1c3d70a8981f3caad3",
-    "assets/css/faq-v14.css": "315390ccead068b87e7c4fe5eef37314a8ad646204c2938137e0f4af60993c8e",
+    "assets/css/faq-v14.css": "08a44ee3428bd538b4ef144961121a264a8403695bef5e87eef6ee11931506a7",
     "assets/css/history-v14.css": "6e1b1cd9aa91b07bf34111486993e4c1910c70c9bc9207a361297ff3923dc9c4",
     "assets/css/home-v14.css": "af2841b49e3d0011f7846d865f67ef257d95d3f346a8a63c1ca256a0314ce1f0",
     "assets/css/news-v14.css": "6faf5cb79d2996b6a02ffe37775127fda0ade4541a257dab822edd8f9fee887b",
@@ -136,7 +136,7 @@
     "index.html": "e2cd488715d9efcf1962db6bfc3d25c755ae6894a1dbef06d18e21082435eb1b",
     "legacy-routes.json": "65a5bbc15a84833a8197d78b8ccb5799b58506b1cec970c9ead2562fa6f10a90",
     "mercadillos/index.html": "bf758232522b95de4395cc088483a7077efa7360c7fc9ae543470c5d30583b0f",
-    "preguntas-frecuentes/index.html": "f2be864b32f73dae0329be17006856646ebd8edad797df02ec7b78397b0e2cec",
+    "preguntas-frecuentes/index.html": "9e84418764139bdbf2ae7336f67110d60bc78b7c9c36e6d65594ef6e29461e18",
     "privacidad/index.html": "5a8218cacd4fb4b47e12032b03c2ae5db6bc5d5da37328f821ab4ff81e0429b6",
     "socios/index.html": "9b792397432468fe3c9a5efb30e726b88f31f453e588df6fe2e81811b05a07cb"
   },

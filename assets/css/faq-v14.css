@@ -10,7 +10,7 @@
 .ampa-faq-topics{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.5rem!important}
 .ampa-faq-topics a{display:inline-flex;align-items:center;min-height:44px;padding:9px 16px;background:#f2f7fa;border:1px solid #dce5ec;border-radius:24px;text-decoration:none;font-size:.9rem;font-weight:700;color:#123552}
 .ampa-faq-topics a:hover{background:#f8eaf0;color:#9e1748}
-.ampa-faq-item{border:1px solid #dce5ec;border-radius:12px;padding:0 22px;margin:12px 0!important;background:#fff}
+.entry-content details.ampa-faq-item{border:1px solid #dce5ec;border-radius:12px;padding:0 22px;margin:12px 0!important;background:#fff}
 .ampa-faq-item summary{cursor:pointer;padding:20px 0;min-height:48px;font-size:1.05rem;font-weight:750;line-height:1.5;color:#123552;overflow-wrap:anywhere}
 .ampa-faq-item[open] summary{color:#9e1748;border-bottom:1px solid #e2e9ee}
 .ampa-faq-item>p{padding:16px 0 20px;margin:0!important;max-width:850px;line-height:1.75}
@@ -19,4 +19,4 @@
 .ampa-faq-help h2{margin-top:0!important}
 .ampa-faq-item summary:focus-visible,.ampa-faq-topics a:focus-visible,.ampa-faq-photo a:focus-visible{outline:3px solid #b31e56;outline-offset:4px}
 #participacion,#actividades,#ayudas-contacto{scroll-margin-top:110px}
-@media(max-width:700px){.ampa-faq-intro{grid-template-columns:1fr;gap:24px}.ampa-faq-photo-frame{max-height:280px}.ampa-faq-item{padding:0 18px}.ampa-faq-item summary{font-size:1rem}.ampa-faq-topics a{font-size:.85rem;padding:9px 13px}}
+@media(max-width:700px){.ampa-faq-intro{grid-template-columns:1fr;gap:24px}.ampa-faq-photo-frame{max-height:280px}.entry-content details.ampa-faq-item{padding:0 18px}.ampa-faq-item summary{font-size:1rem}.ampa-faq-topics a{font-size:.85rem;padding:9px 13px}}
