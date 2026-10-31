@@ -1,0 +1,15 @@
+.ampa-history-milestones{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:1.4rem!important}
+.ampa-history-milestone{background:#f2f7fa;border:1px solid #dce5ec;border-radius:16px;padding:28px;margin:0!important;max-width:none!important}
+.ampa-history-milestone h3{font-size:1.35rem;margin:.4rem 0 .8rem}
+.ampa-history-milestone p:last-child{margin-bottom:0}
+.ampa-history-source{font-size:.9rem;margin-top:1.2rem!important}
+.ampa-history-archive{border:1px solid #dce5ec;border-radius:14px;margin:1.3rem 0 2.5rem;padding:0 24px;background:#fff}
+.ampa-history-archive summary{padding:22px 0;font-weight:750;color:#123552;cursor:pointer;min-height:48px}
+.ampa-history-archive summary:focus-visible{outline:3px solid #b31e56;outline-offset:4px}
+.ampa-history-records{list-style:none!important;padding:0!important;margin:0!important}
+.ampa-history-records>li{display:grid;grid-template-columns:65px minmax(0,1fr);gap:20px;border-top:1px solid #e2e9ee;padding:20px 0;margin:0!important}
+.ampa-history-records time{color:#9e1748;font-size:1.15rem;font-weight:750}
+.ampa-history-records h3{font-size:1.08rem;line-height:1.45;margin:0 0 .5rem}
+.ampa-history-records h3 a{text-decoration:none;color:#123552}
+.ampa-history-record-link{font-size:.85rem;text-underline-offset:4px}
+@media(max-width:700px){.ampa-history-milestones{grid-template-columns:1fr;gap:16px}.ampa-history-milestone{padding:22px}.ampa-history-archive{padding:0 18px}.ampa-history-records>li{grid-template-columns:48px minmax(0,1fr);gap:12px}}

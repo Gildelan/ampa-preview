@@ -1,6 +1,6 @@
 {
   "counts": {
-    "assets": 36,
+    "assets": 42,
     "fallbacks": 1,
     "routes": 87
   },
@@ -54,6 +54,7 @@
     "assets/brand/favicon-v13-1-32.png": "879d5824c0c7b99b06467640fc489f6f051c41ff38357a3e6ccb5a91d415ffa5",
     "assets/brand/favicon-v13-1.ico": "0d4b7f1049b83f520e8c9942aed65d08ea42feb5e92a6f9c228205f96d9bbb12",
     "assets/css/about-v14.css": "3e2eec6406b6b168e0db5cf5aeb1b4f2d126c5907dcb9e1c3d70a8981f3caad3",
+    "assets/css/history-v14.css": "6e1b1cd9aa91b07bf34111486993e4c1910c70c9bc9207a361297ff3923dc9c4",
     "assets/css/home-v14.css": "af2841b49e3d0011f7846d865f67ef257d95d3f346a8a63c1ca256a0314ce1f0",
     "assets/css/news-v14.css": "6faf5cb79d2996b6a02ffe37775127fda0ade4541a257dab822edd8f9fee887b",
     "assets/css/social-videos.css": "ff23924c89032ea971a54c6a5104520f0c982a0fb81bd0dcdfcc66af54267d99",
@@ -65,7 +66,12 @@
     "assets/js/social-videos.js": "e1a2b24012760a3a7f04ae9dedc3c98f5dab233ec332714c7357e801b9b99aed",
     "assets/js/v11-v14.js": "a5e72ca390ab118ccf72ca693620d5f62f1acdf43af1d50be528564b7c964ca8",
     "assets/media/2026/10/asamblea-2026-cover.webp": "d8e41c533dde8bff97ac5741842fa9c9623ea67786954ec705057e6dec5223ed",
+    "assets/media/2026/10/blog-desayuno-2019-09-1024x576.webp": "e61258fdfdd879a88aa57fede2eb487836766bde2c131d6d98b4065f525e08a4",
+    "assets/media/2026/10/blog-desayuno-2019-09-1536x864.webp": "f9d1f086f90f9ab8cac1bd1c708abf9d809db88dd94a294b33a6c743c34cc884",
+    "assets/media/2026/10/blog-desayuno-2019-09-300x169.webp": "8ba2f6821751691e4cc84799b632ea0827399306faf48fd0e3a9841c5b02c5a4",
+    "assets/media/2026/10/blog-desayuno-2019-09-768x432.webp": "ae513fe0ec24b835a8e1e29b5ed2fff1a272c49c730cf89e218c89fa3ae4186f",
     "assets/media/2026/10/blog-desayuno-2019-09.webp": "1bbab6c315a094da93de3a579c90c02847bdd07ac36703abafc23019c7a771b3",
+    "assets/media/2026/10/blog-taller-2019-03-300x200.webp": "917ef08e9ad075751c090177fdbb6072cde8b06f55e37ed45460de31723c6f3e",
     "assets/media/2026/10/blog-taller-2019-03.webp": "ac7f55b8554bcce4407a8352769fca062fb1155c436ccb9a5519eea5b592c437",
     "assets/media/2026/10/champagnat-junio-2026-1-300x225.webp": "45cbeaf37c47d5f421b4c01ac1fc3819c9f657e456f2c573c40003e3525960d9",
     "assets/media/2026/10/champagnat-junio-2026-1-768x576.webp": "79d50b4b791cca7524301f593083fef78da009c1fc7d572322bf9cc844e5c40e",
@@ -106,7 +112,7 @@
     "entidades-colaboradoras/papeleria-daniel/index.html": "0ca565e61cdc1ae26585a636329b83da57abeae6eb9ff1fdda1d1980a57d8fea",
     "familias/index.html": "f0bebcac08a2ef10b14a6c2520b79ba58e30daed64e91d292084c24575ddcd54",
     "galeria/index.html": "0f420e26c9d547f693e57967bfb54d912b865d6a4e945e09915eaed885af6716",
-    "historia/index.html": "a7a23c02efcf6844fba0eb3d338a16c1568edf3cd72d0622c1a160e6f3b5aad4",
+    "historia/index.html": "5b0aec5155567d2336ca0646f654182e2b8b316ff30f6f5e4e04787a56269790",
     "hitos/anuncio-de-prevencion-del-acoso-escolar-y-disciplina-positiva/index.html": "bc2f6eb8ee2a9d7646efb44f116c084c1c02ca4377469bfacb77d53b23ed7272",
     "hitos/asamblea-extraordinaria-y-adaptacion-de-estatutos-cambio-de-denominacion/index.html": "b4a368fbc26084cd51cba1d1e09beee757ca07a5443f519a5651ab00727a4676",
     "hitos/campana-para-aumentar-la-participacion-y-los-socios/index.html": "c10be59ed7bbb676e0cd9873ccdb7ce22961fcabbf2f8ca0622e759f2c6c2e09",
