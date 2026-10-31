@@ -1,0 +1,25 @@
+.ampa-about-intro{max-width:780px!important;font-size:clamp(1.08rem,1.7vw,1.3rem);line-height:1.7}
+.entry-content .ampa-about-heading{margin-top:2.8rem;margin-bottom:.6rem}
+.ampa-about-deck{max-width:690px;color:#526574;margin-bottom:1.5rem}
+.ampa-about-carousel{position:relative;margin:1.5rem 0 3rem;min-width:0}
+.ampa-about-track{display:grid!important;grid-auto-flow:column;grid-auto-columns:calc((100% - 24px)/2);gap:24px;list-style:none!important;margin:0!important;padding:4px 2px 18px!important;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding:2px;scrollbar-width:thin;scrollbar-color:#b31e56 #edf2f5;border-radius:16px}
+.ampa-about-slide{scroll-snap-align:start;min-width:0;margin:0!important;border:1px solid #dce5ec;border-radius:16px;overflow:hidden;background:#fff}
+.ampa-about-slide figure{margin:0!important;height:100%;display:flex;flex-direction:column}
+.ampa-about-photo{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:#edf2f4;overflow:hidden}
+.ampa-about-photo img{display:block;width:100%!important;height:100%!important;object-fit:contain!important;margin:0!important}
+.ampa-about-slide figcaption{margin:0!important;padding:22px 24px 24px;text-align:left;font-size:1rem;line-height:1.6;color:#425666;flex:1}
+.ampa-about-date{font-size:.76rem!important;font-weight:700;letter-spacing:.035em;color:#6b4358;margin:0 0 .65rem!important;text-transform:uppercase}
+.ampa-about-slide h3{font-size:clamp(1.2rem,2vw,1.55rem);margin:0 0 .7rem;color:#123552}
+.ampa-about-slide figcaption>p:not(.ampa-about-date){margin:0 0 1rem!important}
+.ampa-about-slide figcaption>a{display:inline-flex;align-items:center;gap:.5rem;color:#9e1748;font-size:.9rem;font-weight:700;text-underline-offset:4px}
+.ampa-about-hint{font-size:.85rem;color:#526574;margin:.5rem 0!important}
+.ampa-about-controls{display:flex;align-items:center;justify-content:flex-end;gap:12px;margin:12px 0}
+.ampa-about-controls button{display:inline-grid;place-items:center;background:#fff;border:1px solid #bccbd5;color:#123552;border-radius:50%;width:48px;height:48px;font-size:1.4rem;cursor:pointer;padding:0}
+.ampa-about-controls button:hover:not(:disabled){background:#f8eaf0;border-color:#b31e56;color:#9e1748}
+.ampa-about-controls button:disabled{opacity:.38;cursor:default}
+.ampa-about-controls p{font-size:.85rem;min-width:5rem;text-align:center;margin:0!important;color:#425666}
+.ampa-about-track:focus-visible,.ampa-about-carousel button:focus-visible,.ampa-about-carousel a:focus-visible{outline:3px solid #b31e56;outline-offset:4px}
+.ampa-about-join{background:#f2f7fa;border-radius:18px;padding:clamp(24px,4vw,40px);margin:2.5rem 0}
+.ampa-about-join h2{margin-top:0!important}
+@media(max-width:700px){.ampa-about-track{grid-auto-columns:90%;gap:16px}.ampa-about-photo{aspect-ratio:4/3}.ampa-about-slide figcaption{padding:18px}.ampa-about-controls{justify-content:space-between}.ampa-about-slide figcaption>a{font-size:.85rem}}
+@media(prefers-reduced-motion:reduce){.ampa-about-track{scroll-behavior:auto!important}}
