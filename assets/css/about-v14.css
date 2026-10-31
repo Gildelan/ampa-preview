@@ -1,7 +1,9 @@
+/* Scoped to El AMPA; native horizontal scrolling remains available without JS. */
 .ampa-about-intro{max-width:780px!important;font-size:clamp(1.08rem,1.7vw,1.3rem);line-height:1.7}
 .entry-content .ampa-about-heading{margin-top:2.8rem;margin-bottom:.6rem}
 .ampa-about-deck{max-width:690px;color:#526574;margin-bottom:1.5rem}
 .ampa-about-carousel{position:relative;margin:1.5rem 0 3rem;min-width:0}
+.ampa-about-track{position:relative}
 .ampa-about-track{display:grid!important;grid-auto-flow:column;grid-auto-columns:calc((100% - 24px)/2);gap:24px;list-style:none!important;margin:0!important;padding:4px 2px 18px!important;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding:2px;scrollbar-width:thin;scrollbar-color:#b31e56 #edf2f5;border-radius:16px}
 .ampa-about-slide{scroll-snap-align:start;min-width:0;margin:0!important;border:1px solid #dce5ec;border-radius:16px;overflow:hidden;background:#fff}
 .ampa-about-slide figure{margin:0!important;height:100%;display:flex;flex-direction:column}
